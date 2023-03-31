@@ -1,5 +1,8 @@
 import React, {FC} from "react";
 import Image from 'next/image'
+
+import { IHallCardProps } from "./hallCard.types";
+
 import styles from './hallCard.module.scss'
 
 export const HallCard: FC<IHallCardProps> = ({name, hallUrl}) => {

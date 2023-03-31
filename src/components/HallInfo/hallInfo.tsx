@@ -1,4 +1,7 @@
 import React, {FC} from "react";
+
+import { IHallInfoProps } from "./hallInfo.types";
+
 import styles from './hallInfo.module.scss'
 
 export const HallInfo: FC<IHallInfoProps> = ({title, description}) => {

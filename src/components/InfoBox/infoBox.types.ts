@@ -1,5 +1,7 @@
-interface IInfoBoxProps {
+import { ReactNode } from "react";
+
+export interface IInfoBoxProps {
   type?: string,
-  text: string | HTMLElement,
+  text: string | ReactNode,
   imageUrl: string,
 }

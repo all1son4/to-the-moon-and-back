@@ -1,6 +1,12 @@
+import React, { FC } from 'react'
+
 import {svgConstants} from "./svgImages.contants";
 
-function SvgImage({type}) {
+interface SvgImageProps {
+  type: string
+}
+
+const SvgImage: FC<SvgImageProps> = ({type}) => {
   switch (type) {
     case 'mainLogo':
       return svgConstants.mainLogo

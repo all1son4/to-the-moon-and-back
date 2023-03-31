@@ -1,7 +1,9 @@
 import React, {FC} from "react";
 import styles from './infoBox.module.scss'
 import Image from 'next/image'
+
 import {RoundButton} from "../RoundButton/roundButton";
+import { IInfoBoxProps } from './infoBox.types'
 
 export const InfoBox: FC<IInfoBoxProps> = ({type= 'normal' , text, imageUrl}) => {
 

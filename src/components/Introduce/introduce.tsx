@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './introduce.module.scss'
 import SvgImage from "../SvgImages/svgImage";
 
+import { MapIcon } from '@/icons';
+
 export const Introduce = () => {
   return (
     <div className={styles.wrapper}>
@@ -14,7 +16,7 @@ export const Introduce = () => {
             <p>в ТРЦ Dana Mall</p>
           </h1>
           <div className={styles.address}>
-            <SvgImage type={'mapIcon'}/>
+            <MapIcon />
             <p className={styles.addressText}>
               г. Минск, ул.Петра Мстиславца, 11, ТРЦ Dana Mall, 3 этаж
             </p>
