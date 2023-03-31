@@ -1,5 +1,5 @@
 interface IInfoBoxProps {
-  type: string,
+  type?: string,
   text: string | HTMLElement,
   imageUrl: string,
 }

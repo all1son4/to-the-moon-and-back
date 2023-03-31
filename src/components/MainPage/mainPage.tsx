@@ -3,6 +3,7 @@ import {Introduce} from "../Introduce/introduce";
 import styles from "./mainPage.module.scss"
 import {InfoBox} from "../InfoBox/infoBox";
 import {info} from '../../utlis/info'
+import Image from 'next/image'
 import {HallCard} from "../HallCard/hallCard";
 import {RoundButton} from "../RoundButton/roundButton";
 import {HallInfo} from "../HallInfo/hallInfo";
@@ -12,10 +13,10 @@ import {Summary} from "../Summary/summary";
 export const MainPage = () => {
   return (
     <div className={styles.main}>
-      <img src={'/background-mooon-1.svg'} alt={'background-moon-1'} className={styles.backgroundOne}/>
-      <img src={'/background-mooon-2.svg'} alt={'background-moon-2'} className={styles.backgroundTwo}/>
-      <img src={'/background-mooon-3.svg'} alt={'background-moon-3'} className={styles.backgroundThree}/>
-      <img src={'/background-mooon-4.svg'} alt={'background-moon-4'} className={styles.backgroundFour}/>
+      <Image src={'/background-mooon-1.svg'} alt={'background-moon-1'} className={styles.backgroundOne}/>
+      <Image src={'/background-mooon-2.svg'} alt={'background-moon-2'} className={styles.backgroundTwo}/>
+      <Image src={'/background-mooon-3.svg'} alt={'background-moon-3'} className={styles.backgroundThree}/>
+      <Image src={'/background-mooon-4.svg'} alt={'background-moon-4'} className={styles.backgroundFour}/>
       <Introduce/>
       <div className={'container'}>
         <div className={styles.contentContainer}>

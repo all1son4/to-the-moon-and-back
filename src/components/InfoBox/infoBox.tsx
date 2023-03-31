@@ -1,5 +1,6 @@
 import React, {FC} from "react";
 import styles from './infoBox.module.scss'
+import Image from 'next/image'
 import {RoundButton} from "../RoundButton/roundButton";
 
 export const InfoBox: FC<IInfoBoxProps> = ({type= 'normal' , text, imageUrl}) => {
@@ -17,7 +18,7 @@ export const InfoBox: FC<IInfoBoxProps> = ({type= 'normal' , text, imageUrl}) =>
         </div>
       </div>
       <div className={styles.frame}>
-        <img src={imageUrl} alt={'hall-picture'} className={styles.image}/>
+        <Image src={imageUrl} alt={'hall-picture'} className={styles.image}/>
       </div>
     </div>
   )

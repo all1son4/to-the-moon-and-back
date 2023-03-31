@@ -1,4 +1,4 @@
 interface IRoundButtonProps {
-  direction: string;
-  amount: number;
+  direction?: string;
+  amount?: number;
 }
