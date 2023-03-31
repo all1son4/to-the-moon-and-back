@@ -1,0 +1,24 @@
+.roundButton {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.directionRight {
+  transform: rotate(180deg);
+}
+
+@media (hover: hover) {
+  .roundButton:hover {
+    background: #303030;
+    transition: all 0.4s ease;
+  }
+}
+

@@ -1,0 +1,89 @@
+.hallInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Gilroy', serif;
+  position: relative;
+  justify-content: stretch;
+
+  .gradient {
+    z-index: 13;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: linear-gradient(180deg, #0F0F0F 0%, #0F0F0F 0%, #0F0F0F 0.01%, rgba(15, 15, 15, 0.72) 53.92%, rgba(15, 15, 15, 0) 100%);
+    transform: rotate(-180deg);
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+
+  .description {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 13px 0 13px 25px;
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    max-width: 401px;
+    border-left: 1px solid #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hallInfo {
+
+    .title {
+      font-size: 32px;
+    }
+
+    .description {
+      font-size: 11px;
+    }
+  }
+
+  .hallInfo:last-of-type {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hallInfo {
+    margin: 0 0 30px 0;
+
+    .description {
+      max-width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .hallInfo {
+    .gradient {
+      display: block;
+    }
+
+    .title {
+      margin: 0 0 0 10px;
+      font-size: 26px;
+    }
+
+    .description {
+      font-size: 10px;
+    }
+  }
+
+  .hallInfo:last-of-type {
+    margin: 0;
+  }
+}

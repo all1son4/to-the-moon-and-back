@@ -1,0 +1,224 @@
+$white: #FFFFFF;
+.wrapper {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  background: center / cover url('/background-cinema.jpeg') no-repeat;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(15, 15, 15, 0) 0%, #0F0F0F 100%);
+}
+
+.introduceSection {
+  padding: 115px 255px 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .title {
+    margin: 22px 0 0 0;
+    font-family: 'Gilroy', serif;
+    font-weight: 600;
+    font-size: 122px;
+    line-height: 100px;
+    color: $white;
+
+    & > p {
+     margin: 20px 0 0 0;
+    }
+  }
+
+  .address {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 10px 0 40px 0;
+
+    .addressText {
+      margin: 0;
+      font-family: 'Gilroy', serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: $white;
+    }
+  }
+
+  .iconContainer {
+    display: flex;
+    column-gap: 20px;
+
+    .iconBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      height: 70px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .introduceSection {
+    padding: 132px 80px 266px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .introduceSection {
+    .title {
+      margin: 0;
+      font-size: 92px;
+      line-height: 92px;
+
+      & > p {
+        margin: 15px 0 0 0;
+      }
+    }
+
+    .title > svg {
+      width: 560px;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .introduceSection {
+    padding: 132px 60px 140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introduceSection {
+    padding: 132px 30px 120px;
+
+    .title {
+      margin: 0;
+      font-size: 64px;
+      line-height: 64px;
+    }
+
+    .title > svg {
+      width: 440px;
+    }
+
+    .address {
+      column-gap: 16px;
+
+      .addressText {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    .iconContainer {
+      column-gap: 10px;
+
+      .iconBox {
+        width: 140px;
+        height: 54px;
+
+        & > svg {
+          width: 80px;
+          height: auto;
+        }
+      }
+
+      .iconBox:last-of-type > svg {
+        width: 86px;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .introduceSection {
+    padding: 132px 20px 120px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .introduceSection {
+
+    .title {
+      font-size: 42px;
+      line-height: 40px;
+    }
+
+    .title > svg {
+      width: 260px;
+    }
+
+    .address {
+      .addressText {
+        font-size: 14px;
+      }
+    }
+
+    .iconContainer {
+      column-gap: 5px;
+
+      .iconBox {
+        width: 101px;
+        height: 39px;
+
+        & > svg {
+          width: 57px;
+          height: 15px;
+        }
+      }
+
+      .iconBox:last-of-type > svg {
+        width: 70px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .introduceSection {
+    .address {
+      .addressText {
+        max-width: 210px;
+        font-size: 13px;
+      }
+
+      & > svg {
+        margin: -20px 0 0 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .introduceSection {
+    padding: 132px 20px 100px;
+
+    .title {
+      font-size: 32px;
+      line-height: 30px;
+    }
+
+    .title > svg {
+      width: 170px;
+    }
+  }
+}

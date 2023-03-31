@@ -1,0 +1,46 @@
+.hallCard {
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    border-radius: 10px;
+    width: 331px;
+    height: 205px;
+    object-fit: cover;
+  }
+
+  .name {
+    margin: 13px 0 0 0;
+    box-sizing: border-box;
+    border-left: 1px solid #FFFFFF;
+    font-family: 'Gilroy', serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0 0 0 13px;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .hallCard {
+    align-items: flex-end;
+
+    .name {
+      border-left: unset;
+      border-right: 1px solid #FFFFFF;
+      padding: 0 13px 0 0;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hallCard {
+    .image {
+      width: 240px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
