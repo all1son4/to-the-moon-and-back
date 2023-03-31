@@ -18,7 +18,7 @@ export const InfoBox: FC<IInfoBoxProps> = ({type= 'normal' , text, imageUrl}) =>
         </div>
       </div>
       <div className={styles.frame}>
-        <Image src={imageUrl} alt={'hall-picture'} className={styles.image}/>
+        <Image src={imageUrl} alt={'hall-picture'} className={styles.image} width={690} height={390}/>
       </div>
     </div>
   )

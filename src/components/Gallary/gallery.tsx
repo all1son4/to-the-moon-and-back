@@ -8,11 +8,11 @@ export const Gallery = () => {
     <div className={styles.gallery}>
       <h2 className={styles.title}>Галерея</h2>
       <div className={styles.galleryBox}>
-        <Image src={'/attention.jpeg'} alt={'gallery-image'} className={styles.image}/>
-        <Image src={'/buffet.jpeg'} alt={'gallery-image'} className={styles.image}/>
-        <Image src={'/snack.jpeg'} alt={'gallery-image'} className={styles.image}/>
-        <Image src={'/rest.jpeg'} alt={'gallery-image'} className={styles.image}/>
-        <Image src={'/screen.jpeg'} alt={'gallery-image'} className={styles.image}/>
+        <Image src={'/attention.jpeg'} alt={'gallery-image'} className={styles.image} width={335} height={205}/>
+        <Image src={'/buffet.jpeg'} alt={'gallery-image'} className={styles.image} width={335} height={205}/>
+        <Image src={'/snack.jpeg'} alt={'gallery-image'} className={styles.image} width={335} height={205}/>
+        <Image src={'/rest.jpeg'} alt={'gallery-image'} className={styles.image} width={335} height={205}/>
+        <Image src={'/screen.jpeg'} alt={'gallery-image'} className={styles.image} width={335} height={205}/>
       </div>
       <div className={styles.buttonBox}>
         <RoundButton />

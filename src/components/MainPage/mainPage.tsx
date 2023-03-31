@@ -13,10 +13,10 @@ import {Summary} from "../Summary/summary";
 export const MainPage = () => {
   return (
     <div className={styles.main}>
-      <Image src={'/background-mooon-1.svg'} alt={'background-moon-1'} className={styles.backgroundOne}/>
-      <Image src={'/background-mooon-2.svg'} alt={'background-moon-2'} className={styles.backgroundTwo}/>
-      <Image src={'/background-mooon-3.svg'} alt={'background-moon-3'} className={styles.backgroundThree}/>
-      <Image src={'/background-mooon-4.svg'} alt={'background-moon-4'} className={styles.backgroundFour}/>
+      <Image src={'/background-mooon-1.svg'} alt={'background-moon-1'} className={styles.backgroundOne} width={944} height={314}/>
+      <Image src={'/background-mooon-2.svg'} alt={'background-moon-2'} className={styles.backgroundTwo} width={314} height={944}/>
+      <Image src={'/background-mooon-3.svg'} alt={'background-moon-3'} className={styles.backgroundThree} width={314} height={944}/>
+      <Image src={'/background-mooon-4.svg'} alt={'background-moon-4'} className={styles.backgroundFour} width={314} height={944}/>
       <Introduce/>
       <div className={'container'}>
         <div className={styles.contentContainer}>
