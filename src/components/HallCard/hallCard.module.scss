@@ -1,6 +1,8 @@
 .hallCard {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 14;
 
   .image {
     border-radius: 10px;
