@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 import { IIconProps } from "./";
 
-export const MapIcon: FC<IIconProps> = ({ width = 12, height = 15, fill = '#ffffff' }) => {
+export const MapIcon: FC<IIconProps> = ({ width = 12, height = 15, fill = '#5966F0' }) => {
   return (
     <svg
       width={width}

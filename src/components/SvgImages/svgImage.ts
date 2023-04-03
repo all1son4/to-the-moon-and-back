@@ -1,15 +1,17 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 
-import {svgConstants} from "./svgImages.contants";
+import {svgConstants} from "./svgImage.contants";
 
-interface SvgImageProps {
-  type: string
-}
+import {SvgImageProps} from "./svgImage.types";
 
 const SvgImage: FC<SvgImageProps> = ({type}) => {
   switch (type) {
-    case 'mainLogo':
+    case 'mainLogo': {
       return svgConstants.mainLogo
+    }
+    case 'silverScreenLogo': {
+      return svgConstants.silverScreenLogo
+    }
     case 'mapIcon': {
       return svgConstants.mapIcon
     }

@@ -10,7 +10,22 @@ $white: #FFFFFF;
   left: 0;
   right: 0;
   opacity: 0.5;
-  background: center / cover url('/background-cinema.jpeg') no-repeat;
+}
+
+.danaMall {
+  background: center / cover url('/danaMall-cinema.jpeg') no-repeat;
+}
+
+.palazzo {
+  background: center / cover url('/palazzo-cinema.jpeg') no-repeat;
+}
+
+.arenaCity {
+  background: center / cover url('/arenaCity-cinema.jpeg') no-repeat;
+}
+
+.triniti {
+  background: center / cover url('/triniti-cinema.jpeg') no-repeat;
 }
 
 .gradient {
@@ -70,6 +85,16 @@ $white: #FFFFFF;
       height: 70px;
       border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 10px;
+
+      .arenaCitySpecial {
+        display: flex;
+        margin: 0;
+      }
+
+      .trinitiSpecial {
+        display: flex;
+        margin: 0;
+      }
     }
   }
 }
@@ -139,6 +164,14 @@ $white: #FFFFFF;
           width: 80px;
           height: auto;
         }
+
+        .arenaCitySpecial > svg {
+          width: 40px;
+        }
+
+        .trinitiSpecial > svg {
+          width: 68px;
+        }
       }
 
       .iconBox:last-of-type > svg {
@@ -183,6 +216,14 @@ $white: #FFFFFF;
         & > svg {
           width: 57px;
           height: 15px;
+        }
+
+        .arenaCitySpecial > svg {
+          width: 28px;
+        }
+
+        .trinitiSpecial > svg {
+          width: 48px;
         }
       }
 

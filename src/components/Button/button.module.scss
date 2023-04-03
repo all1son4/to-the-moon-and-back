@@ -1,0 +1,41 @@
+.button {
+  position: relative;
+  font-family: 'Gilroy', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 50px;
+  width: 100%;
+  background: #5966F0;
+  border-radius: 60px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0 11px;
+
+  .iconWrapper {
+    display: inline-flex;
+    position: absolute;
+    right: 11px;
+
+    & > svg {
+      transition: all 0.3s ease;
+    }
+  }
+
+  &:hover {
+    opacity: 0.9;
+    transition: all 0.3s ease;
+
+    .iconWrapper > svg {
+      transform: rotate(360deg);
+      transition: all 0.3s ease;
+    }
+  }
+
+}

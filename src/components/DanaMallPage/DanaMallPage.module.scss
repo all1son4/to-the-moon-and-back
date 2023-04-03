@@ -1,0 +1,178 @@
+$white: #FFFFFF;
+
+.main {
+  position: relative;
+  background: #0F0F0F;
+
+  .contentContainer {
+    padding: 0 254px;
+    overflow: hidden;
+  }
+
+  .title {
+    font-family: 'Gilroy', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 74px;
+    line-height: 78px;
+    color: $white;
+    margin: 100px 0 0 0;
+    position: relative;
+  }
+
+  .titleFirst {
+    position: absolute;
+    top: -151px;
+    margin: 0;
+    width: 80%;
+    z-index: 11;
+  }
+
+  .hallBox {
+    display: flex;
+    column-gap: 26px;
+    margin: 60px 0 20px 0;
+    overflow: hidden;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 14px;
+  }
+
+  .buttonDown {
+    display: none;
+    padding: 30px 0 24px 0;
+    position: relative;
+    z-index: 14;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+      width: 32px;
+      height: 32px;
+      transform: rotate(-90deg);
+    }
+
+    & > div > svg {
+      width: 6px;
+      height: 12px;
+    }
+  }
+
+  .buttonDown:after {
+    z-index: 14;
+    content: '';
+    height: 1px;
+    width: 90%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0.1));
+  }
+
+  .hallGradation {
+    display: flex;
+    column-gap: 46px;
+    margin: 102px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .main {
+    .contentContainer {
+      padding: 0 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main {
+    .contentContainer {
+      padding: 0 60px;
+    }
+    .title {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .main {
+
+    .title {
+      box-sizing: border-box;
+      font-size: 42px;
+      line-height: 100%;
+      margin: 45px 0 0 0;
+    }
+
+    .titleFirst {
+      margin: 0;
+      top: -64px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    .title {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .main {
+    .contentContainer {
+      padding: 0 30px;
+    }
+
+    .title {
+      width: 100%;
+    }
+
+    .hallGradation {
+      flex-direction: column;
+      padding: 0 16px 30px;
+      margin: 30px 0 0;
+    }
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .main {
+    .contentContainer {
+      padding: 0;
+    }
+
+    .title {
+      padding: 0 20px;
+      font-size: 28px;
+      margin: 30px 0 0 0;
+    }
+
+    .titleFirst {
+      margin: 0;
+      top: -56px;
+    }
+
+    .hallBox {
+      padding: 0 0 0 23px;
+      margin: 30px 0 20px 0;
+    }
+
+    .buttons {
+      padding: 0 17px 0 0;
+    }
+
+    .buttonDown {
+      display: flex;
+    }
+
+    .hallGradation {
+      overflow: hidden;
+      max-height: 125px;
+    }
+  }
+}

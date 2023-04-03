@@ -10,7 +10,22 @@
   left: 0;
   right: 0;
   opacity: 0.5;
-  background: center / cover url('/background-cinema.jpeg') no-repeat;
+}
+
+.danaMall {
+  background: center / cover url('/danaMall-cinema.jpeg') no-repeat;
+}
+
+.palazzo {
+  background: center / cover url('/palazzo-cinema.jpeg') no-repeat;
+}
+
+.arenaCity {
+  background: center / cover url('/arenaCity-cinema.jpeg') no-repeat;
+}
+
+.triniti {
+  background: center / cover url('/triniti-cinema.jpeg') no-repeat;
 }
 
 .backgroundAdditional {
@@ -82,6 +97,33 @@
   }
 }
 
+@media screen and (max-width: 1120px) {
+  .summarySection {
+
+    .logo {
+
+      .mainText {
+        font-size: 74px;
+        line-height: 78px;
+      }
+    }
+
+    .logo > svg {
+      width: 500px;
+      height: auto;
+    }
+
+    .info {
+      font-size: 28px;
+
+      .addressBlock {
+        margin: 0 0 16px 0;
+      }
+    }
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .summarySection {
     align-items: flex-start;
@@ -100,7 +142,6 @@
 
     .logo > svg {
       width: 440px;
-      height: auto;
     }
 
     .info {
@@ -108,10 +149,6 @@
       font-size: 24px;
       line-height: 130%;
       text-align: left;
-
-      .addressBlock {
-        margin: 0 0 16px 0;
-      }
 
       & > span {
         font-size: 19px;

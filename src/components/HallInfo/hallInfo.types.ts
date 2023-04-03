@@ -1,4 +1,5 @@
-interface IHallInfoProps {
-  title: string,
+export interface IHallInfoProps {
+  title: string
   description: string
+  pos?: string
 }

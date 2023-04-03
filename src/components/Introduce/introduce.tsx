@@ -1,24 +1,39 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from './introduce.module.scss'
 import SvgImage from "../SvgImages/svgImage";
 
 import { MapIcon } from '@/icons';
+import FourKIcon from "../../icons/4Kicon";
+import ImaxIcon from "../../icons/ImaxIcon";
 
-export const Introduce = () => {
+import {IIntroduceProps} from "./introduce.types";
+
+export const Introduce: FC<IIntroduceProps> = ({title, address, cinema}) => {
+
+  const backgroundImageStyle = [styles.background, styles[cinema]].join(' ')
+
+  const anotherIcon = () => {
+    return cinema !== 'triniti'
+      ? <div className={styles.arenaCitySpecial}><FourKIcon /></div>
+      : <div className={styles.trinitiSpecial}><ImaxIcon /></div>
+  }
+
   return (
     <div className={styles.wrapper}>
-      <div className={styles.background}/>
+      <div className={backgroundImageStyle}/>
       <div className={styles.gradient}/>
       <div className={'container'}>
         <section className={styles.introduceSection}>
           <h1 className={styles.title}>
-            <SvgImage type={'mainLogo'}/>
-            <p>в ТРЦ Dana Mall</p>
+            {cinema !== 'arenaCity'
+              ? <SvgImage type={'mainLogo'}/>
+              : <SvgImage type={'silverScreenLogo'}/>}
+            <p>{title}</p>
           </h1>
           <div className={styles.address}>
             <MapIcon />
             <p className={styles.addressText}>
-              г. Минск, ул.Петра Мстиславца, 11, ТРЦ Dana Mall, 3 этаж
+              {address}
             </p>
           </div>
           <div className={styles.iconContainer}>
@@ -26,7 +41,10 @@ export const Introduce = () => {
               <SvgImage type={'dolbyAtmos'}/>
             </div>
             <div className={styles.iconBox}>
-              <SvgImage type={'screenX'}/>
+              {cinema === 'danaMall' || cinema === 'palazzo'
+                ? <SvgImage type={'screenX'}/>
+                : anotherIcon()
+              }
             </div>
           </div>
         </section>
@@ -34,3 +52,5 @@ export const Introduce = () => {
     </div>
   )
 }
+
+export default Introduce

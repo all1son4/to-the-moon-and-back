@@ -1,6 +1,7 @@
 import React, {FC} from "react";
 import styles from './roundButton.module.scss'
 import SvgImage from "../SvgImages/svgImage";
+import {IRoundButtonProps} from "./roundButton.types";
 
 export const RoundButton: FC <IRoundButtonProps> = ({direction = 'left', amount = 1}) => {
 

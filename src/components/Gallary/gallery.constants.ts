@@ -1,4 +1,4 @@
-export const galleryImages = [{
+export const danaMallGallery = [{
     id: 1,
     src: '/attention.jpeg',
 }, {
@@ -13,4 +13,55 @@ export const galleryImages = [{
 }, {
     id: 5,
     src: '/screen.jpeg',
+}]
+
+export const palazzoGallery = [{
+    id: 1,
+    src: '/palazzoSnack.jpeg',
+}, {
+    id: 2,
+    src: '/palazzoPremiere.jpeg',
+}, {
+    id: 3,
+    src: '/palazzoCoffee.jpeg',
+}, {
+    id: 4,
+    src: '/palazzoRooms.jpeg',
+}, {
+    id: 5,
+    src: '/palazzoKids.jpeg',
+}]
+
+export const arenaCityGallery = [{
+    id: 1,
+    src: '/arenaCity-cinema.jpeg',
+}, {
+    id: 2,
+    src: '/arenaCityYammy.png',
+}, {
+    id: 3,
+    src: '/arenaCityChairs.jpeg',
+}, {
+    id: 4,
+    src: '/arenaCityMate.png',
+}, {
+    id: 5,
+    src: '/arenaCityScreen.jpeg',
+}]
+
+export const trinitiGallery = [{
+    id: 1,
+    src: '/trinitiBuffet.png',
+}, {
+    id: 2,
+    src: '/trinitiLounge.png',
+}, {
+    id: 3,
+    src: '/trinitiSnack.jpeg',
+}, {
+    id: 4,
+    src: '/triniti-cinema.jpeg',
+}, {
+    id: 5,
+    src: '/trinitiWay.jpeg',
 }]

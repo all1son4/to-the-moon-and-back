@@ -1,5 +1,5 @@
 {
-  "name": "mooon-test",
+  "name": "to-the-moon-and-back",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.21.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
     "classnames": "^2.3.2",
     "eslint": "8.22.0",
     "eslint-config-next": "13.2.4",
+    "icons": "^1.0.0",
+    "mobx": "^6.9.0",
+    "mobx-react": "^7.6.0",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.2"
   },
   "devDependencies": {
+    "mobx-react-devtools": "^6.1.1",
     "sass": "^1.60.0"
   }
 }

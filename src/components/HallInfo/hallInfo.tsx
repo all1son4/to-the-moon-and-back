@@ -4,9 +4,12 @@ import { IHallInfoProps } from "./hallInfo.types";
 
 import styles from './hallInfo.module.scss'
 
-export const HallInfo: FC<IHallInfoProps> = ({title, description}) => {
+export const HallInfo: FC<IHallInfoProps> = ({title, description, pos}) => {
+
+  const gridStyles = [styles.hallInfo, styles[pos]].join(' ')
+
   return (
-    <div className={styles.hallInfo}>
+    <div className={gridStyles}>
       <div className={styles.gradient}/>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>

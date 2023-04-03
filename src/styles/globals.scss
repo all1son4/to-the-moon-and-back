@@ -1,5 +1,12 @@
 body {
   margin: 0;
+  background: #0F0F0F;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .container {
@@ -7,6 +14,49 @@ body {
   min-width: 320px;
   margin: 0 auto;
   position: relative;
+  height: 100%;
 }
 
+.backgroundOne {
+  position: absolute;
+  top: 774px;
+  z-index: 10;
+}
 
+.backgroundTwo {
+  position: absolute;
+  right: 0;
+  top: 1153px;
+  z-index: 10;
+}
+
+.backgroundThree {
+  position: absolute;
+  top: 1673px;
+  z-index: 10;
+}
+
+.backgroundFour {
+  position: absolute;
+  right: 0;
+  top: 2634px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 900px) {
+  .backgroundOne {
+    display: none;
+  }
+
+  .backgroundTwo {
+    display: none;
+  }
+
+  .backgroundThree {
+    display: none;
+  }
+
+  .backgroundFour {
+    display: none;
+  }
+}

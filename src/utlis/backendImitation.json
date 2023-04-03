@@ -1,0 +1,28 @@
+ {
+   "steps": {
+     "currentStep": "0",
+     "info": {
+       "0": {
+         "buttonText": "Получить код по SMS"
+       },
+       "1": {
+         "buttonText": "Далее"
+       },
+       "2": {
+         "buttonText": "Далее"
+       },
+       "3": {
+         "buttonText": "Отлично"
+       }
+     }
+   },
+   "smsResponse": "123456",
+   "userInfo": {
+     "firstName": "",
+     "lastName": "",
+     "email": "",
+     "password": "",
+     "birthday": "",
+     "phoneNumber": ""
+  }
+}
