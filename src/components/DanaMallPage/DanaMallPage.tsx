@@ -34,7 +34,7 @@ export const DanaMallPage = () => {
         <div className={styles.contentContainer}>
           <section>
             <h2 className={[styles.title, styles.titleFirst].join(' ')}>Добро пожаловать в мир удивительных открытий!</h2>
-            <InfoBox text={info.danaMall.boxes.hall.text} imageUrl={'/danaHall.jpeg'}/>
+            <InfoBox text={info.danaMall.boxes.hall.text} imageUrl={'/danaHall.png'}/>
           </section>
           <section>
             <h2 className={styles.title}>Наши кинозалы</h2>
@@ -74,11 +74,11 @@ export const DanaMallPage = () => {
           </section>
           <section>
             <h2 className={styles.title}>Кофейня Buffet</h2>
-            <InfoBox text={info.danaMall.boxes.coffeeShop.text} imageUrl={'/buffet.jpeg'}/>
+            <InfoBox text={info.danaMall.boxes.coffeeShop.text} imageUrl={'/buffet.png'}/>
           </section>
           <section>
             <h2 className={styles.title}>Отдых с комфортом!</h2>
-            <InfoBox text={info.danaMall.boxes.rest.text} imageUrl={'/rest.jpeg'} type={'reverse'}/>
+            <InfoBox text={info.danaMall.boxes.rest.text} imageUrl={'/rest.png'} type={'reverse'}/>
           </section>
           <section>
             <h2 className={styles.title}>С вниманием к запросам каждого</h2>

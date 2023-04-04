@@ -1,18 +1,18 @@
 export const danaMallGallery = [{
     id: 1,
-    src: '/attention.jpeg',
+    src: '/attention.png',
 }, {
     id: 2,
-    src: '/buffet.jpeg',
+    src: '/buffet.png',
 }, {
     id: 3,
     src: '/snack.jpeg',
 }, {
     id: 4,
-    src: '/rest.jpeg',
+    src: '/rest.png',
 }, {
     id: 5,
-    src: '/screen.jpeg',
+    src: '/screen.png',
 }]
 
 export const palazzoGallery = [{
@@ -26,10 +26,10 @@ export const palazzoGallery = [{
     src: '/palazzoCoffee.jpeg',
 }, {
     id: 4,
-    src: '/palazzoRooms.jpeg',
+    src: '/palazzoRooms.png',
 }, {
     id: 5,
-    src: '/palazzoKids.jpeg',
+    src: '/palazzoKids.png',
 }]
 
 export const arenaCityGallery = [{
@@ -57,11 +57,11 @@ export const trinitiGallery = [{
     src: '/trinitiLounge.png',
 }, {
     id: 3,
-    src: '/trinitiSnack.jpeg',
+    src: '/trinitiSnack.png',
 }, {
     id: 4,
     src: '/triniti-cinema.jpeg',
 }, {
     id: 5,
-    src: '/trinitiWay.jpeg',
+    src: '/trinitiWay.png',
 }]

@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6e38da-578b-4f8e-9d80-15b725a8aa7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" afterDir="false" />
@@ -32,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" afterDir="false" />
@@ -39,6 +41,7 @@
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" afterDir="false" />
@@ -46,9 +49,48 @@
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HallCard/hallCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HallCard/hallCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Summary/summary.contstants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Summary/summary.contstants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utlis/backendImitation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/utlis/backendImitation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/arenaCity-cinema.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/arenaCity-cinema.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/arenaCityChairs.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/arenaCityChairs.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attention.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/buffet.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/danaHall.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/danaMall-cinema.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/danaMall-cinema.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/emotions.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/enjoy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/kids.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mediaRoom.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzo-cinema.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzo-cinema.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoHall.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzoHall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoImax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoKids.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoPremiere.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzoPremiere.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoResto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzoResto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoRooms.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoSnack.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzoSnack.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoVegas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzoVegas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/palazzoVip.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/palazzoVip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/premiere.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/rest.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screen.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sound.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/sound.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/space.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/triniti-cinema-main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/triniti-cinema.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/triniti-cinema.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiBuffet.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiBuffet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiHall.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiHall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiInterier.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiInterier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiLounge.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiLounge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiResto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiResto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiRooms.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiRooms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiSnack.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiVip.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/trinitiVip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/trinitiWay.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vegas.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vip6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vip7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DanaMallPage/DanaMallPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DanaMallPage/DanaMallPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Gallary/gallery.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallary/gallery.constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utlis/info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utlis/info.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +109,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/TrinitiPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -97,7 +139,8 @@
       <updated>1680273229237</updated>
       <workItem from="1680273230499" duration="2495000" />
       <workItem from="1680276172617" duration="29720000" />
-      <workItem from="1680515735233" duration="23883000" />
+      <workItem from="1680515735233" duration="24206000" />
+      <workItem from="1680603881909" duration="3882000" />
     </task>
     <servers />
   </component>
@@ -117,10 +160,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1680505989643">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1680609121335">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1680505989643" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1680609121335" />
     <state x="563" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1680542868996">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -133,9 +176,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1680540493791" />
-    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1680556399693">
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1680609926134">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1680556399693" />
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1680609926134" />
   </component>
 </project>
