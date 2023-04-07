@@ -25,7 +25,7 @@ export const setUserInfo = async (data: IDataProps) => {
       },
       body: JSON.stringify({
         phoneNumber: data.phoneNumber.replace('(', '').replace(')', '').split(' ').join('').slice(1,),
-        filledSms: data.filledSms,
+        filledSms: data.filledSms.replace(/ /g,''),
         firstName: data.firstName,
         lastName: data.lastName,
         email: data.email,

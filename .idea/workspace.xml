@@ -20,56 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6e38da-578b-4f8e-9d80-15b725a8aa7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/checkbox.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/checkbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/checkbox.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/CheckBoxIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/sms/sms.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/steps/steps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/timer/timer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/userInfo/userInfo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/webpack-runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Authentication/authentication.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/authentication.constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Authentication/authentication.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/authentication.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Authentication/authentication.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/authentication.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Gallary/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallary/gallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/customInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/customInput.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/customInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/customInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/customInput.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/customInput.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/authentication.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utlis/backendImitation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendImitation.json" beforeDir="false" afterPath="$PROJECT_DIR$/backendImitation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/userInfo/userInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/userInfo/userInfo.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +74,7 @@
       <workItem from="1680276172617" duration="29720000" />
       <workItem from="1680515735233" duration="24206000" />
       <workItem from="1680603881909" duration="4122000" />
-      <workItem from="1680767937130" duration="63146000" />
+      <workItem from="1680767937130" duration="63887000" />
     </task>
     <servers />
   </component>
