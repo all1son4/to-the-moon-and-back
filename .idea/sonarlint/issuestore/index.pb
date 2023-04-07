@@ -15,44 +15,14 @@ O
 .next/server/pages/_document.js,7/b/7b257cf3c810d7c72b118fe30031c22b59a3a151
 J
 src/icons/SplitterIcon.tsx,8/7/879da1574ffe5ad88bfefe0f6b30c6d18ba98fc3
-h
-8src/components/Authentication/authentication.module.scss,1/9/19d3282b5680426a10e3886c2d5ae9b67045eca6
-Y
-)src/components/Input/customInput.types.ts,0/0/00aac41e202f928caff21082afb08fdd7d80f175
 R
 "src/pages/authentication/index.tsx,d/6/d6b0ff165c0aa2fe1b5f530ae29c4666ba643d1e
-P
- src/utlis/backgroundFragments.ts,2/b/2bc130c8c87183a0c8b4b082e65b70c6cc70033d
-A
-package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-T
-$src/components/Input/customInput.tsx,0/5/057d5aeb4454711743a0a974922e386b529906d5
 L
 src/pages/danaMall/index.tsx,0/b/0bb506771b91c2cebf2f105aa571de5831ab2164
-C
-src/pages/index.tsx,d/2/d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
-B
-src/pages/_app.tsx,2/e/2eefa41a18ed6ea3f58b3748f9e5559a28e77646
-P
- src/components/Button/button.tsx,4/e/4ee9e21dc4e2614a89a88f7f6e6324a10efb8899
 E
 src/icons/MapIcon.tsx,5/7/575eea264b5c1465415ddc971e21cc6e2251e22d
-G
-src/pages/_document.tsx,0/5/052f85edfc3fbb9d129530f0f8b191ff6c16f7ce
 I
 src/store/registration.ts,1/f/1f77cfa409352e3d812c9c18272b31461d3cb86d
-\
-,src/components/Input/customInput.module.scss,0/c/0c7ebd09b48288c739bd04703a9f8c8fa3384288
-`
-0src/components/Authentication/authentication.tsx,9/4/94d4621239e8af59b9468da22c1c70aa8857d52d
-O
-src/pages/api/authentication.ts,3/e/3eef5fa919436a88f141bd4dcfd0e3c1a419e474
-i
-9src/components/Authentication/authentication.constants.ts,6/3/63272a3899d742c36addd098781a6be23db9d229
-K
-src/pages/palazzo/index.tsx,3/d/3d0732e6bde710c407604c6afeb2c140f8780977
 ^
 .src/components/SvgImages/svgImage.contants.tsx,1/a/1a131bb6e60d8091971e818def73534b243525cc
 G
@@ -61,8 +31,6 @@ b
 2src/components/PalazzoPage/PalazzoPage.module.scss,8/9/89d871440614870f41dbbb3bae72a44048458ed0
 D
 src/icons/4Kicon.tsx,9/e/9e082e8fd6fbd71959bbcb330a634aa39baca889
-M
-src/icons/ButtonArrowIcon.tsx,2/b/2b62d31c476caa812d7a75a6daf5cc6f3114164e
 d
 4src/components/DanaMallPage/DanaMallPage.module.scss,9/d/9d3de94f6b0c4b462d364c9e8b6226de2f150106
 \
@@ -75,22 +43,14 @@ Z
 *src/components/Summary/summary.module.scss,e/0/e0b4093be403315bca8776bb803205a731b8573d
 ^
 .src/components/ArenaCityPage/ArenaCityPage.tsx,2/2/223fca809935604464241a2083ba5a9d5840f930
-X
-(src/components/Button/button.module.scss,9/c/9c2dc9dde4e01096ef3c0428f423190d257c26fe
 Z
 *src/components/Gallary/gallery.module.scss,c/c/ccd9c3ef16607b25932e68bbda5987e47bd2c5ff
-W
-'src/components/Gallary/gallery.types.ts,c/d/cddedf3115ad486d2e85d0ba6d056ed599a742bc
 H
 src/icons/icons.types.ts,6/8/68cf3ba46128354079a19dcb8c9cdb928ec3248c
 B
 src/icons/index.ts,5/e/5e66fd215f5febeca81c551f2c7ff033b04e6e86
-R
-"src/components/Gallary/gallery.tsx,8/2/826ae9c3401f8605c7ef89510bccd8aa3f5f8fd8
 Y
 )src/components/HallCard/hallCard.types.ts,1/d/1d2732e78e49dc761d271ab4671935d634b42592
-O
-src/components/Gallary/index.ts,4/7/47c140cf5af91cc020b69e613d3ac1aba78c0f65
 T
 $src/components/HallInfo/hallInfo.tsx,7/c/7c4d44b30baf625c71a01fd462e444627735d5bc
 Y
@@ -125,3 +85,13 @@ f
 6src/components/ArenaCityPage/ArenaCityPage.module.scss,3/5/35ed6ad5e04cc31fc60a17a150ea40a69942e9ac
 V
 &src/components/Introduce/introduce.tsx,5/4/544ad3d2bf98ee12571a816cb799b15af68e34a0
+^
+.src/components/Introduce/introduce.module.scss,1/8/187939b84e7d1b8c965560abcde083065771351f
+R
+"src/components/Summary/summary.tsx,f/f/ff116321a5e54c04b5064e04c235b4591cc5063f
+]
+-src/components/Summary/summary.contstants.tsx,4/e/4ec165ae042ea4c1e42ae34b11010dc2627c28dd
+P
+ src/components/HallCard/index.ts,2/2/22e6c8e58ac6fc4f024025d42656b82825f71732
+\
+,src/components/HallCard/hallCard.module.scss,5/3/53d3f733477d04c84af864782ceee5ebec6fea2b

@@ -3,26 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "set PORT=3001 && next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server --watch backendImitation.json"
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.21.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
+    "@types/react-input-mask": "^3.0.2",
     "classnames": "^2.3.2",
     "eslint": "8.22.0",
     "eslint-config-next": "13.2.4",
     "icons": "^1.0.0",
+    "json-server": "^0.17.3",
     "mobx": "^6.9.0",
     "mobx-react": "^7.6.0",
+    "moment": "^2.29.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "react-hook-form": "^7.43.9",
+    "react-input-mask": "^2.0.4",
+    "typescript": "5.0.2",
+    "use-mask-input": "^3.0.6"
   },
   "devDependencies": {
     "mobx-react-devtools": "^6.1.1",

@@ -1,0 +1,20 @@
+{
+  "getSms": {
+    "smsCode": "123456"
+  },
+  "userInfo": {
+    "filledSms": "123 456",
+    "firstName": "Дмитрий",
+    "lastName": "СТрок",
+    "email": "strok_dima@mail.ru",
+    "password": "Test2011",
+    "birthday": "04.04.1998",
+    "phoneNumber": "375291112989"
+  },
+  "steps": {
+    "currentStep": "3"
+  },
+  "timerDate": {
+    "date": "2023-04-07T19:09:53+04:00"
+  }
+}

@@ -10,7 +10,6 @@ import {
 } from "./gallery.constants";
 
 import {IGalleryProps} from "./gallery.types";
-import HallInfo from "../HallInfo/hallInfo";
 
 export const Gallery: FC<IGalleryProps> = ({cinema}) => {
 

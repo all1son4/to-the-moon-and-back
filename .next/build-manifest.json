@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/triniti": [
+    "/authentication": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/triniti.js"
+      "static/chunks/pages/authentication.js"
     ]
   },
   "ampFirstPages": []

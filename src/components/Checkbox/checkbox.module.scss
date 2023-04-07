@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .container {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+
+    .checkbox {
+      display: flex;
+      position: relative;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .checkbox input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    .checkbox input:checked ~ .mark {
+      border: 1px solid #5966F0;
+    }
+
+    .checkbox .mark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background: #303030;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+    }
+
+  }
+  .errorMessage {
+    margin: 16px 0 0 0;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #FF3A46;
+  }
+}

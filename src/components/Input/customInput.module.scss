@@ -19,6 +19,8 @@
     color: #FFFFFF;
     outline: none;
     transition: all 0.3s ease;
+    margin: 0 0 8px 0;
+    caret-color: #5966F0;
 
     &:focus {
       background: rgba(255, 255, 255, 0.1);
@@ -54,10 +56,14 @@
   }
 
   .errorMessage {
-    margin: 8px 0 0 0;
+    margin: 0 0 8px 0;
     font-weight: 500;
     font-size: 11px;
     line-height: 11px;
     color: #FF3A46;
+  }
+
+  .error {
+    border: 1px solid #FF3A46;
   }
 }
