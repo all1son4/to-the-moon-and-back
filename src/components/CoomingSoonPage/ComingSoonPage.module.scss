@@ -1,0 +1,179 @@
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  .background {
+    z-index: -1;
+    top: 50%;
+    margin-top: -395px;
+    width: 720px;
+    height: 790px;
+    position: absolute;
+    background: center / cover url('/backgroundCircle.png') no-repeat;
+  }
+
+  .content {
+    overflow: hidden;
+    padding: 200px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gilroy', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & > svg {
+        opacity: 0.2;
+        height: auto;
+        width: 232px;
+      }
+
+      .title {
+        text-align: center;
+        margin: 80px -50px 0 0;
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 50px;
+      }
+    }
+
+    .typography {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+
+      .info {
+        margin: 40px 0 0 0;
+        max-width: 958px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 300;
+
+        &:last-of-type {
+          margin: 10px 0 0 0;
+        }
+      }
+    }
+
+    .buttonWrapper {
+      margin: 80px 0 0 0;
+      width: 296px;
+
+      .button {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.1);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #FFFFFF;
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 0 26px;
+        height: 60px;
+
+        & > div {
+          display: inline-flex;
+          position: absolute;
+          right: 26px;
+        }
+
+        &:hover {
+          transition: all 0.3s ease;
+          background-color: #5966F0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .main {
+    .content {
+      padding: 200px 40px 0;
+
+      .logo {
+        .title {
+          margin: 80px -0.36em 0 0;
+          letter-spacing: 0.36em;
+        }
+      }
+
+      .typography {
+        .info {
+          max-width: 860px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    .content {
+      .logo {
+        .title {
+          max-width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 584px) {
+  .main {
+
+    .background {
+      margin-top: 0;
+    }
+
+    .content {
+      height: 100vh;
+      justify-content: space-between;
+      padding: 0 20px;
+
+      .logo {
+        padding: 85px 0 0 0;
+
+        .title {
+          font-size: 52px;
+          line-height: 120%;
+        }
+      }
+
+      .typography {
+        padding: 0 0 85px 0;
+
+        .info {
+          font-size: 16px;
+          line-height: 120%;
+          margin: 0;
+          max-width: 290px;
+
+          &:last-of-type {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
