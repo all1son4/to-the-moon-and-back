@@ -17,8 +17,6 @@ export const InstaGallery = () => {
     window.open(link)
   }
 
-  console.log(instaCards)
-
   const iconVariant = (type) => {
     switch (type) {
       case 'CAROUSEL_ALBUM': {
