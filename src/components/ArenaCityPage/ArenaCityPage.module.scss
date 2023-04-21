@@ -79,7 +79,18 @@ $white: #FFFFFF;
       padding: 0 60px;
     }
     .title {
-      width: 100%;
+      width: fit-content;
+    }
+  }
+}
+
+@media screen and (max-width: 1049px) {
+  .main {
+    .title{
+      width: 90%;
+    }
+    .titleFirst {
+      top: -134px;
     }
   }
 }
@@ -116,7 +127,7 @@ $white: #FFFFFF;
     }
 
     .title {
-      width: 100%;
+      width: fit-content;
     }
   }
 }

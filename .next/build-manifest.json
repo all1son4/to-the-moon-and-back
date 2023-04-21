@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/comingSoon": [
+    "/arenaCity": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/comingSoon.js"
+      "static/chunks/pages/arenaCity.js"
     ]
   },
   "ampFirstPages": []

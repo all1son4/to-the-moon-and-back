@@ -9,8 +9,6 @@ b
 .next/trace,4/b/4b0e0c14549aa032c2be07cf26e46ce7e2417e41
 Z
 *src/components/RoundButton/roundButton.tsx,7/a/7afe6c7f50342b08bc40a7cbdc56f979f2444ba8
-R
-"src/components/InfoBox/infoBox.tsx,b/3/b31f4772038ee7cfefa49a3ea67ab9013b26eaeb
 O
 .next/server/pages/_document.js,7/b/7b257cf3c810d7c72b118fe30031c22b59a3a151
 J
@@ -33,12 +31,8 @@ Z
 *src/components/TrinitiPage/TrinitiPage.tsx,8/b/8beec414e56bcb285004628d107b9e821372c76b
 Z
 *src/components/Summary/summary.module.scss,e/0/e0b4093be403315bca8776bb803205a731b8573d
-Z
-*src/components/Gallary/gallery.module.scss,c/c/ccd9c3ef16607b25932e68bbda5987e47bd2c5ff
 H
 src/icons/icons.types.ts,6/8/68cf3ba46128354079a19dcb8c9cdb928ec3248c
-B
-src/icons/index.ts,5/e/5e66fd215f5febeca81c551f2c7ff033b04e6e86
 Y
 )src/components/HallCard/hallCard.types.ts,1/d/1d2732e78e49dc761d271ab4671935d634b42592
 T
@@ -79,8 +73,6 @@ P
 ,src/components/DanaMallPage/DanaMallPage.tsx,c/0/c0e91dc45f8fdbe0442c79da0bb42aa11d791ca4
 M
 public/background-mooon-4.svg,2/b/2bafbf6cbf865161268bcc7eb018a50d5ccf9093
-Z
-*src/components/InfoBox/infoBox.module.scss,f/8/f8201d857f0507d170c4de9d66a5965de98f4236
 T
 $src/components/HallCard/hallCard.tsx,6/e/6e2131ebd32f8c174efeec8ff2d42281be34d859
 B
@@ -107,8 +99,6 @@ K
 src/pages/palazzo/index.tsx,3/d/3d0732e6bde710c407604c6afeb2c140f8780977
 W
 'src/components/Gallary/gallery.types.ts,c/d/cddedf3115ad486d2e85d0ba6d056ed599a742bc
-R
-"src/components/Gallary/gallery.tsx,8/2/826ae9c3401f8605c7ef89510bccd8aa3f5f8fd8
 O
 src/components/Gallary/index.ts,4/7/47c140cf5af91cc020b69e613d3ac1aba78c0f65
 P
@@ -123,3 +113,31 @@ Y
 )src/components/Checkbox/checkbox.types.ts,7/e/7efedb19e358d0cc20ced4fc8207863774b3c17c
 L
 src/pages/api/steps/steps.ts,1/b/1ba52745c95cf1bb9b9b6877c26f19f6642759ea
+E
+backendImitation.json,4/5/45977b570f8e1030bc6dc04eae7ae9bf2f2dc2e3
+\
+,src/components/Input/customInput.module.scss,0/c/0c7ebd09b48288c739bd04703a9f8c8fa3384288
+i
+9src/components/Authentication/authentication.constants.ts,6/3/63272a3899d742c36addd098781a6be23db9d229
+M
+src/components/Input/index.ts,7/9/79e118c5ed7698963083c245bfc89bf795b46b9a
+T
+$src/components/Input/customInput.tsx,0/5/057d5aeb4454711743a0a974922e386b529906d5
+Y
+)src/components/Input/customInput.types.ts,0/0/00aac41e202f928caff21082afb08fdd7d80f175
+T
+$src/components/Checkbox/checkbox.tsx,1/1/11242a58e7967a085f29a756dbc803eff162fd3e
+R
+"src/pages/authentication/index.tsx,d/6/d6b0ff165c0aa2fe1b5f530ae29c4666ba643d1e
+M
+src/pages/arenaCity/index.tsx,4/b/4b9a3cdb424169a6b18945d6a2dc21aad69c2eaa
+C
+src/pages/index.tsx,d/2/d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
+h
+8src/components/Authentication/authentication.module.scss,1/9/19d3282b5680426a10e3886c2d5ae9b67045eca6
+b
+2src/components/PalazzoPage/PalazzoPage.module.scss,8/9/89d871440614870f41dbbb3bae72a44048458ed0
+Z
+*src/components/PalazzoPage/PalazzoPage.tsx,f/d/fdc1dd7c95c8b2cb4880d16bdbe055004735a339
+Q
+!src/components/SvgImages/index.ts,7/d/7d5a058cd8e2c459f0889c34484466dca08b17ba

@@ -7,6 +7,7 @@ import {backgroundFragments} from "../../utlis/backgroundFragments";
 import Image from 'next/image'
 import {Gallery} from "../Gallary/gallery";
 import {Summary} from "../Summary/summary";
+import InstaGallery from "../InstaGallery/instaGallary";
 
 export const ArenaCityPage = () => {
   return (
@@ -46,6 +47,7 @@ export const ArenaCityPage = () => {
             <InfoBox text={info.arenaCity.boxes.mate.text} imageUrl={info.arenaCity.boxes.mate.image} type={'reverse'}/>
           </section>
           <Gallery  cinema={'arenaCity'}/>
+          <InstaGallery />
         </div>
       </div>
       <Summary cinema={'arenaCity'} title={'в ТРЦ Arena Сitу'}/>

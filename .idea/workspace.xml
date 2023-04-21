@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6e38da-578b-4f8e-9d80-15b725a8aa7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Noize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CoomingSoonPage/ComingSoonPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CoomingSoonPage/ComingSoonPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/ArrowRoundIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/comingSoon/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InstaGallery/instaGallary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InstaGallery/instaGallery.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/CarouselIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/VideoIcon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
@@ -39,7 +38,6 @@
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack" afterDir="false" />
@@ -50,13 +48,12 @@
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/webpack-runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArenaCityPage/ArenaCityPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArenaCityPage/ArenaCityPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArenaCityPage/ArenaCityPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArenaCityPage/ArenaCityPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -110,7 +107,8 @@
       <workItem from="1680603881909" duration="4122000" />
       <workItem from="1680767937130" duration="64579000" />
       <workItem from="1681378621387" duration="10399000" />
-      <workItem from="1681897239398" duration="10254000" />
+      <workItem from="1681897239398" duration="10893000" />
+      <workItem from="1681984888376" duration="31900000" />
     </task>
     <servers />
   </component>
@@ -130,10 +128,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1681912201276">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1682084585444">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1681912201276" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1682084585444" />
     <state x="563" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1680875393918">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -146,9 +144,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="420" y="199" key="FileDocumentManager.FileCacheConflict/0.0.1680.1050@0.0.1680.1050" timestamp="1680862191666" />
-    <state x="349" y="161" key="SettingsEditor" timestamp="1680783348497">
+    <state x="349" y="161" key="SettingsEditor" timestamp="1682062291667">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="349" y="161" key="SettingsEditor/-126.-1055.1920.1055/0.0.1680.1050@0.0.1680.1050" timestamp="1682062291667" />
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1680783348497" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1680863051356">
       <screen x="0" y="25" width="1680" height="951" />
