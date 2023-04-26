@@ -47,7 +47,6 @@ export const ArenaCityPage = () => {
             <InfoBox text={info.arenaCity.boxes.mate.text} imageUrl={info.arenaCity.boxes.mate.image} type={'reverse'}/>
           </section>
           <Gallery  cinema={'arenaCity'}/>
-          <InstaGallery />
         </div>
       </div>
       <Summary cinema={'arenaCity'} title={'в ТРЦ Arena Сitу'}/>
