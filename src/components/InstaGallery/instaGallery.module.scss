@@ -35,7 +35,7 @@
   .cardBox {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, calc((100vw - 508px) / 5));
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 0;
     justify-items: center;
 
@@ -43,7 +43,7 @@
       overflow: hidden;
       position: relative;
       height: auto;
-      width: calc((100vw - 508px) / 5);
+      width: 282px;
       margin: 0;
       padding: 0;
       transition: all 0.3s ease;
@@ -51,7 +51,7 @@
       display: flex;
 
       .cardImage {
-        width: calc((100vw - 508px) / 5);
+        width: 282px;
         height: auto;
         object-fit: cover;
         transition: all 0.3s ease;
@@ -79,6 +79,22 @@
     margin: 0;
     width: 100%;
     color: #FFFFFF;
+  }
+}
+
+@media (max-width: 1920px) {
+  .instaGallery {
+    .cardBox {
+      grid-template-columns: repeat(5, calc((100vw - 508px) / 5));
+
+      .card {
+        width: calc((100vw - 508px) / 5);
+
+        .cardImage {
+          width: calc((100vw - 508px) / 5);
+        }
+      }
+    }
   }
 }
 

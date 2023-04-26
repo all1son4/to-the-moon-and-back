@@ -3,8 +3,8 @@ import styles from "./instaGallery.module.scss"
 import {CarouselIcon, VideoIcon} from "../../icons";
 
 export const InstaGallery = () => {
-  const userToken = 'IGQVJXN1FIVTJWb3JlNWtGRTU4bkJkTGgtWTBjbE12WkZAKUkltcnRRY1Q2V2huVXNmX0JRZAjBULUVXdFZACRHU0aklqS0puNHNJN1gtTGx0WXRQR3h1YXo3RjlUYWN0em14RS1TSnRmdl9aalZACc0dncgZDZD'
-
+  //TOKEN FROM FACEBOOK DEVELOPERS
+  const userToken = '1'
   const [instaCards, setInstaCards] = useState([])
 
   useEffect(() => {
